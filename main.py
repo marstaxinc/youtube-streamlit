@@ -15,7 +15,7 @@ for i in range(100):
     time.sleep(0.1)
 'Done!!!!!'
 
-left_column, right_column = st.columns(2)
+left_column, right_column = st.beta_columns(2)
 button = left_column.button('右カラムに文字を表示')
 if button:
     right_column.write('右カラムを押しました!')
