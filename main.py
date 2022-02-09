@@ -1,13 +1,6 @@
-from multiprocessing import Condition
-from socket import J1939_PGN_ADDRESS_CLAIMED
-from turtle import width
 
-from click import style
-from PIL import Image
 import streamlit as st
-import numpy as np
-import pandas as pd
-import time
+gitimport time
 
 st.title('streamlit 超入門')
 st.write('プログレスバー表示')
