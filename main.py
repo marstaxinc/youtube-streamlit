@@ -1,6 +1,6 @@
 
 import streamlit as st
-gitimport time
+import time
 
 st.title('streamlit 超入門')
 st.write('プログレスバー表示')
